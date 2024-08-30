@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Environmental Data Display</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Environmental Data</h1>
+    <h2>Cost to Offset Top 4 Emitters' Carbon Footprint</h2>
+    {{ costs_table|safe }}
+<br>
+    <h2>Carbon Emissions of Top 4 Countires</h2>
+    <h4>Price as of May 5</h4>
+    {{ emissions_table|safe }}
+</div>
+</body>
+</html>
