@@ -45,7 +45,7 @@ The LSTM model achieved the best overall results, making it ideal for predicting
 
 ## 🔍 Key Insights                                                                                                                                                                                                                        
 - Datasets: Global and national datasets revealed region-specific emission behavior trends.                                                                                                             
-- Robust Forecasting: Achieved low MSE and MAE with a high R² value using the LSTM model.                                                                                                
+- Robust Forecasting: Achieved low MSE with a high R² value using the LSTM model.                                                                                                
 - Actionable Outcomes: Provided precise carbon neutrality cost forecasts, guiding policy formulation and sustainable planning.                                                                                                                                              
 
 ## 📄 License                                                                                                                                                                                                                                                                                                                                   
