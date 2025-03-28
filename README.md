@@ -13,7 +13,7 @@ We explored and evaluated multiple machine learning models:
 - **Support Vector Regression (SVR)**
 - **Long Short-Term Memory (LSTM)**
 
-Based on model performance, the **LSTM** model was selected for final forecasting due to its ability to capture long-term temporal dependencies in emission trends.
+Based on model performance, the **LSTM model**- achieving an MSE of 0.0038 and R² of 0.8892, was selected for final forecasting due to its effectiveness in capturing long-term temporal dependencies in emission trends.
 
 ### 🧪 Evaluation Metrics
 Each model was assessed using:
@@ -38,5 +38,15 @@ The LSTM model achieved the best overall results, making it ideal for predicting
 ## 🚀 How to Run
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/saivivek55/Carbon-emission-Prediction.git
-   cd Carbon-emission-Prediction
+   git clone https://github.com/saivivek55/Carbon-Emission-Prediction-and-Neutrality-Cost-Forecasting.git
+   cd Carbon-Emission-Prediction-and-Neutrality-Cost-Forecasting
+2. **Install Dependencies**
+3. **Execute the python files**
+
+## 🔍 Key Insights                                                                                                                                                                                                                        
+- Datasets: Global and national datasets revealed region-specific emission behavior trends.                                                                                                             
+- Robust Forecasting: Achieved low MSE and MAE with a high R² value using the LSTM model.                                                                                                
+- Actionable Outcomes: Provided precise carbon neutrality cost forecasts, guiding policy formulation and sustainable planning.                                                                                                                                              
+
+## 📄 License                                                                                                                                                                                                                                                                                                                                   
+This project is licensed under the Apache 2.0 License.
